@@ -5,7 +5,7 @@ Bare no-code repository considered as a template, which includes code-related th
 ## Usage
 
 ```bash
-# You don't
+yarn start
 ```
 
 ## Contributing
