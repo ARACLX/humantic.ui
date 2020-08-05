@@ -1,0 +1,24 @@
+{
+  "name": "@araclx/aeropods",
+  "version": "0.0.1-Alpha",
+  "private": true,
+  "description": "Bare no-code repository considered as a template, which includes code-related things such as linters, documentation, and other shit that you setup in every new repository.",
+  "repository": "https://github.com/aralcx/aeropods.git",
+  "author": "Jakub Olan <jakub.olan001@gmail.com>",
+  "homepage": "https://github.com/araclx/aeropods",
+  "bugs": {
+    "url": "https://github.com/aralcx/aeropods/issues"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "@araclx/husky": "latest",
+    "@araclx/prettier-config": "latest",
+    "@araclx/semantic-release": "latest",
+    "husky": "4.2.5",
+    "lerna": "3.22.1",
+    "prettier": "2.0.5"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
