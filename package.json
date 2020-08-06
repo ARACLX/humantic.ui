@@ -13,6 +13,7 @@
     "@testing-library/jest-dom": "5.11.2",
     "@testing-library/react": "10.4.8",
     "@testing-library/user-event": "12.1.0",
+    "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1"
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch-scss": "node-sass -o src/styles/css src/styles/scss -w --output-style expanded --indent-type space",
+    "build-css": "node-sass -o src/styles/css src/styles/scss --output-style expanded --indent-type space"
   },
   "devDependencies": {
     "@araclx/husky": "latest",
